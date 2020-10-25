@@ -2,7 +2,7 @@ An Operating System (OS) is an interface between a computer user and computer ha
 Here is a list  of operating system functions:
 1.Memory Management
 Memory management refers to management of Primary Memory or Main Memory. Main memory is a large array of words or bytes where each word or byte has its own address.
-Main memory provides a fast storage that can be accessed directly by the CPU. For a program to be executed, it must in the main memory. An Operating System does the following activities for memory management −
+Main memory provides a fast storage that can be accessed directly by the CPU. For a program to be executed, it must in the main memory. An Operating System does the following activities for memory management 
 --Keeps tracks of primary memory
 --In multiprogramming, the OS decides which process will get memory when and how much.
 --Allocates the memory when a process requests it to do so.
@@ -10,8 +10,16 @@ Main memory provides a fast storage that can be accessed directly by the CPU. Fo
 
 2.File Management 
 A file system is organized into directories for efficient or easy navigation and usage. These directories may contain other directories and other files. An Operating System carries out the following file management activities. It keeps track of where information is stored, user access settings and status of every file and more. These facilities are collectively known as the file system.
-An Operating System does the following activities for file management −
+An Operating System does the following activities for file management 
 --Keeps track of information, location, uses, status etc. The collective facilities are often known as file system.
 --Decides who gets the resources.
 --Allocates the resources.
 --De-allocates the resources.
+
+3.Processor Management
+In multiprogramming environment, the OS decides which process gets the processor when and for how much time. This function is called process scheduling. An Operating System does the following activities for processor management 
+--Keeps tracks of processor and status of process. The program responsible for this task is known as traffic controller.
+--Allocates the processor (CPU) to a process.
+--De-allocates processor when a process is no longer required.
+
+
