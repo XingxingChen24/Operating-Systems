@@ -1,0 +1,10 @@
+An Operating System (OS) is an interface between a computer user and computer hardware. An operating system is a software which performs all the basic tasks.
+Here is a list  of operating system functions:
+1.Memory Management
+Memory management refers to management of Primary Memory or Main Memory. Main memory is a large array of words or bytes where each word or byte has its own address.
+Main memory provides a fast storage that can be accessed directly by the CPU. For a program to be executed, it must in the main memory. An Operating System does the following activities for memory management −
+--Keeps tracks of primary memory
+--In multiprogramming, the OS decides which process will get memory when and how much.
+--Allocates the memory when a process requests it to do so.
+--De-allocates the memory when a process no longer needs it or has been terminated.
+
