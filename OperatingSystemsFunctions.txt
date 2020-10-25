@@ -8,3 +8,10 @@ Main memory provides a fast storage that can be accessed directly by the CPU. Fo
 --Allocates the memory when a process requests it to do so.
 --De-allocates the memory when a process no longer needs it or has been terminated.
 
+2.File Management 
+A file system is organized into directories for efficient or easy navigation and usage. These directories may contain other directories and other files. An Operating System carries out the following file management activities. It keeps track of where information is stored, user access settings and status of every file and more. These facilities are collectively known as the file system.
+An Operating System does the following activities for file management −
+--Keeps track of information, location, uses, status etc. The collective facilities are often known as file system.
+--Decides who gets the resources.
+--Allocates the resources.
+--De-allocates the resources.
